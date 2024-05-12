@@ -1,0 +1,248 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    transition: background-color 0.3s;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Button styles */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Mode switch styles */
+.mode-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.mode-toggle-label {
+    background-color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mode-toggle-label:before {
+    content: '';
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease-in-out;
+}
+
+#mode-toggle:checked + .mode-toggle-label:before {
+    transform: translate(20px, -50%);
+}
+
+/* Side menu styles */
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    padding-top: 60px;
+    transition: left 0.3s ease;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu ul li {
+    padding: 15px;
+}
+
+.side-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+}
+
+.side-menu ul li a:hover {
+    background-color: #444;
+}
+
+/* Main content styles */
+.main-content {
+    margin-top: 100px;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.activity, .evaluation {
+    text-align: center;
+    font-weight: bold;
+}
+
+.submit-button {
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #111;
+    color: #eee;
+}
+
+.dark-mode .header {
+    background-color: #222;
+}
+
+.dark-mode .btn {
+    background-color: #55c57a;
+}
+
+.dark-mode .mode-toggle-label {
+    background-color: #555;
+}
+
+.dark-mode .mode-toggle-label:before {
+    background-color: #eee;
+}
+
+.dark-mode .side-menu {
+    background-color: #222;
+}
+
+.dark-mode .side-menu ul li a {
+    color: #eee;
+}
+
+.dark-mode .card {
+    background-color: #222;
+}
+
+.dark-mode .submit-button {
+    background-color: #55c57a;
+}
+
+.dark-mode .footer {
+    background-color: #222;
+}
+
+
+
+
+  /* Additional styles for input elements */
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Additional styles for introduction */
+.introduction {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    display: none; /* Initially hidden */
+}

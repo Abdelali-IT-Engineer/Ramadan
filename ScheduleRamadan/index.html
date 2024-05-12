@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Daily Schedule</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Additional styles for introduction */
+        .introduction {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            z-index: 1000;
+            display: none; /* Initially hidden */
+        }
+
+        /* Additional styles for conclusion */
+        .conclusion {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            z-index: 1000;
+            display: none; /* Initially hidden */
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex justify-between items-center">
+            <h1 class="title"></h1>
+        </div>
+    </header>
+
+    <div class="header">
+        <div class="container">
+            <h1 class="title">Ramadan Daily Schedule</h1>
+            <div class="menu-btn" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <div id="introduction" class="introduction">
+        <h2>Welcome to Ramadan Daily Schedule!</h2>
+        <p>Enhance your Ramadan experience with our comprehensive daily schedule guide. From Quran recitation to physical activities and delicious recipes, we've got you covered.</p>
+        <p>Explore the sections below and make the most out of this blessed month!</p>
+    </div>
+    <!-- Conclusion -->
+    <div id="conclusion" class="conclusion">
+        <h2>Thank You for Visiting!</h2>
+    <p>We hope you found our Ramadan Daily Schedule helpful and inspiring. May this guide enrich your Ramadan experience and bring you closer to your spiritual goals.</p>
+    <p>Remember to share this resource with your friends and loved ones. Wishing you a blessed Ramadan!</p>
+    </div>
+
+
+    <!-- Dark/Light Mode Switch -->
+    <div class="mode-switch">
+        <input type="checkbox" id="mode-toggle">
+        <label for="mode-toggle" class="mode-toggle-label"></label>
+    </div>
+
+    <nav class="side-menu" id="sideMenu">
+        <ul>
+            <li><a href="#quran">Quran/Adkar/Hadith</a></li>
+            <li><a href="#salat">Salat Management</a></li>
+            <li><a href="#activity">Physical Activity</a></li>
+            <li><a href="#recipes">Ramadan Recipes</a></li>
+            <li><a href="#knowledge">Family & Knowledge</a></li>
+            <li><a href="#routine">Daily Routine</a></li>
+            <li><a href="#comments">Comments & Suggestions</a></li>
+            <li><a href="#daily-schedule">Ramadan Daily Schedule</a></li>
+            <li><a href="#register-evaluations">Register Your Evaluations</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <!-- Introduction -->
+        <p class="intro-text" id="intro-text"></p>
+        <!-- Conclusion -->
+        <p class="conclusion-text" id="conclusion-text"></p>
+
+        <!-- Content Sections -->
+        <!-- Quran/Adkar/Hadith Section -->
+        <section id="quran" class="card p-4 mb-4">
+            <h2 class="text-2xl">📖 Quran/Adkar/Hadith</h2>
+            <p>Dedicate time each day to read the Quran, engage in Adkar (remembrance of Allah), and reflect on Hadiths.</p>
+            <p>Time: Morning or Evening</p>
+            <p>Energizing Link: <a href="https://quran.com/" class="text-blue-500">Explore Quranic Verses</a></p>
+        </section>
+
+        <!-- Salat Management Section -->
+        <section id="salat" class="card p-4 mb-4">
+            <h2 class="text-2xl">🕌 Salat Management</h2>
+            <p>Respect the timings of obligatory prayers (fard) and perform voluntary prayers (nawafil) for increased spiritual rewards.</p>
+            <p>Time: Throughout the Day</p>
+            <p>Energizing Link: <a href="https://www.islamicfinder.org/prayer-times/" class="text-blue-500">Learn About Islamic Prayers</a></p>
+        </section>
+
+        <!-- Physical Activity Section -->
+        <section id="activity" class="card p-4 mb-4">
+            <h2 class="text-2xl">🏋️ Physical Activity</h2>
+            <p>Incorporate physical exercise such as light workouts, stretching, or walking to maintain health and vitality during Ramadan.</p>
+            <p>Time: Afternoon</p>
+            <p>Energizing Link: <a href="https://www.fitnessblender.com/" class="text-blue-500">Explore Exercise Routines</a></p>
+        </section>
+
+        <!-- Ramadan Recipes Section -->
+        <section id="recipes" class="card p-4 mb-4">
+            <h2 class="text-2xl">🍲 Ramadan Recipes</h2>
+            <p>Explore and prepare delicious Ramadan recipes for iftar and suhoor meals.</p>
+            <p>Time: Evening</p>
+            <p>Energizing Link: <a href="https://myhalalkitchen.com/" class="text-blue-500">Discover Ramadan Recipes</a></p>
+        </section>
+
+        <!-- Family Involvement & Knowledge Acquisition Section -->
+        <section id="knowledge" class="card p-4 mb-4">
+            <h2 class="text-2xl">👪 Family Involvement & Knowledge Acquisition</h2>
+            <p>Engage in activities that involve your family and promote the acquisition of knowledge about Islam.</p>
+            <p>Time: Night</p>
+            <p>Energizing Link: <a href="https://muslimmatters.org/" class="text-blue-500">Explore Family Activities</a></p>
+        </section>
+
+        <!-- Daily Routine Section (New Addition) -->
+        <section id="routine" class="card p-4 mb-4">
+            <h2 class="text-2xl">🔄 Daily Routine</h2>
+            <p>Random Person's Daily Ramadan Action: Reflect on gratitude and perform an act of kindness for someone in need.</p>
+            <p>Time: Anytime</p>
+            <p>Energizing Link: <a href="https://greatergood.berkeley.edu/gratitude" class="text-blue-500">Practice Gratitude Exercises</a></p>
+        </section>
+
+
+        <!-- Comments & Suggestions Section -->
+        <section id="comments" class="card p-4 mb-4">
+            <h2 class="text-2xl">Comments & Suggestions</h2><br>
+            <form action="submit_comments.php" method="post">
+                <label for="comment">Leave your comment or suggestion:</label><br><br>
+                <textarea id="comment" name="comment" rows="4" cols="50" required class="form-control mb-2"></textarea><br>
+                <input type="submit" value="Submit" class="btn btn-primary">
+   
+            </form>
+
+            <!-- Display fetched comments -->
+            <div id="display-comments">
+                <?php include 'fetch_comments.php'; ?>
+            </div>
+        </section>
+
+
+        <section id="daily-schedule" class="card p-4 mb-4">
+            <h2 class="text-2xl">Ramadan Daily Schedule</h2><br>
+            <form action="evaluation.php" method="POST">
+                <table class="w-full table-bordered border-blue-500">
+                    <thead>
+                        <tr>
+                            <th class="text-left">TIME</th>
+                            <th colspan="3">6:00 AM - 9:00 AM</th>
+                            <th colspan="3">9:00 AM - 12:00 PM</th>
+                            <th colspan="3">12:00 PM - 3:00 PM</th>
+                            <th colspan="3">3:00 PM - 6:00 PM</th>
+                            <th colspan="3">6:00 PM - 9:00 PM</th>
+                            <th colspan="3">Anytime</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3">Every Day</td>
+                            <td colspan="3" class="partition">Quran/Adkar/Hadith</td>
+                            <td colspan="3" class="partition">Salat Management</td>
+                            <td colspan="3" class="partition">Physical Activity</td>
+                            <td colspan="3" class="partition">Ramadan Recipes</td>
+                            <td colspan="3" class="partition">Family & Knowledge</td>
+                            <td colspan="3" class="partition">Daily Routine</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="activity">Read Quran</td>
+                            <td colspan="3" class="activity">Dhuhr Prayer</td>
+                            <td colspan="3" class="activity">Light Exercise</td>
+                            <td colspan="3" class="activity">Prepare Iftar</td>
+                            <td colspan="3" class="activity">Family Time</td>
+                            <td colspan="3" class="activity">Reflect on Gratitude</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="evaluation">
+                                <label for="quran_evaluation">Quran:</label>
+                                <select name="quran_evaluation" id="quran_evaluation">
+                                    <option value="excellent">Excellent</option>
+                                    <option value="good">Good</option>
+                                    <option value="fair">Fair</option>
+                                    <option value="poor">Poor</option>
+                                </select>
+                                <input type="submit" value="Submit" class="submit-button" color>
+                            </td>
+                            <td colspan="3" class="evaluation">
+                                <label for="salat_evaluation">Salat:</label>
+                                <select name="salat_evaluation" id="salat_evaluation">
+                                    <option value="excellent">Excellent</option>
+                                    <option value="good">Good</option>
+                                    <option value="fair">Fair</option>
+                                    <option value="poor">Poor</option>
+                                </select>
+                                <input type="submit" value="Submit" class="submit-button">
+                            </td>
+                            <td colspan="3" class="evaluation">
+                                <label for="activity_evaluation">Activity:</label>
+                                <select name="activity_evaluation" id="activity_evaluation">
+                                    <option value="excellent">Excellent</option>
+                                    <option value="good">Good</option>
+                                    <option value="fair">Fair</option>
+                                    <option value="poor">Poor</option>
+                                </select>
+                                <input type="submit" value="Submit" class="submit-button">
+                            </td>
+                            <td colspan="3" class="evaluation">
+                                <label for="recipes_evaluation">Recipes:</label>
+                                <select name="recipes_evaluation" id="recipes_evaluation">
+                                    <option value="excellent">Excellent</option>
+                                    <option value="good">Good</option>
+                                    <option value="fair">Fair</option>
+                                    <option value="poor">Poor</option>
+                                </select>
+                                <input type="submit" value="Submit" class="submit-button">
+                            </td>
+                            <td colspan="3" class="evaluation">
+                                <label for="family_evaluation">Family:</label>
+                                <select name="family_evaluation" id="family_evaluation">
+                                    <option value="excellent">Excellent</option>
+                                    <option value="good">Good</option>
+                                    <option value="fair">Fair</option>
+                                    <option value="poor">Poor</option>
+                                </select>
+                                <input type="submit" value="Submit" class="submit-button">
+                            </td>
+                            <td colspan="3" class="evaluation">
+                                <label for="routine_evaluation">Routine:</label>
+                                <select name="routine_evaluation" id="routine_evaluation">
+                                    <option value="excellent">Excellent</option>
+                                    <option value="good">Good</option>
+                                    <option value="fair">Fair</option>
+                                    <option value="poor">Poor</option>
+                                </select>
+                                <input type="submit" value="Submit" class="submit-button">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </section>
+        
+        <!-- Form for registering schedule -->
+        <section id="register-evaluations" class="card p-4 mb-4">
+            <h2 class="text-2xl">Register Your Evaluations</h2>
+            <form action="register_schedule.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required class="form-control mb-2"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required class="form-control mb-2"><br>
+                <input type="submit" value="Submit" class="submit-button">
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ramadan Daily Schedule. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Show the introduction after 10 seconds
+        setTimeout(function() {
+            document.getElementById('introduction').style.display = 'block';
+        }, 10000);
+    
+        // Hide the introduction after 40 seconds
+        setTimeout(function() {
+            document.getElementById('introduction').style.display = 'none';
+        }, 40000);
+    
+        // Show the conclusion after 60 seconds
+        setTimeout(function() {
+            document.getElementById('conclusion').style.display = 'block';
+        }, 60000);
+    
+        // Hide the conclusion after 75 seconds
+        setTimeout(function() {
+            document.getElementById('conclusion').style.display = 'none';
+        }, 75000);
+    </script>
+
+</body>
+
+</html>
