@@ -5,7 +5,7 @@ Schedule RAMADAN is a comprehensive tool designed to help individuals organize a
 Installation
 To install Schedule RAMADAN, follow these steps:
 
-Clone the repository: git clone https://github.com/your_username/schedule-ramadan.git
+Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/Ramadan.git
 Navigate to the project directory: cd schedule-ramadan
 Install dependencies: npm install
 Configure the application settings as needed.
@@ -80,7 +80,7 @@ Check out the live demo here.
 Deployment
 To deploy the application, follow these steps:
 
-Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/project.git
+Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/Ramadan.git
 Install dependencies: npm install
 Configure environment variables: Create a .env file and set the necessary variables.
 Start the server: npm start
@@ -114,3 +114,6 @@ If you encounter any issues, please refer to our FAQs or open a new issue.
 
 Testimonials
 "Schedule RAMADAN has been a lifesaver during Ramadan. The easy-to-use interface and daily schedule reminders have greatly improved my Ramadan experience." - Sarah
+
+
+
