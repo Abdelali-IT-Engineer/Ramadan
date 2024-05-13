@@ -80,7 +80,7 @@ Check out the live demo here.
 Deployment
 To deploy the application, follow these steps:
 
-Clone the repository: git clone https://github.com/username/project.git
+Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/project.git
 Install dependencies: npm install
 Configure environment variables: Create a .env file and set the necessary variables.
 Start the server: npm start
