@@ -1,8 +1,8 @@
-Schedule RAMADAN
-Description
+# Schedule RAMADAN
+## Description
 Schedule RAMADAN is a comprehensive tool designed to help individuals organize and optimize their daily activities during the holy month of Ramadan. From managing prayers and spiritual activities to meal planning and family engagement, this application aims to facilitate a fulfilling Ramadan experience.
 
-Installation
+## Installation
 To install Schedule RAMADAN, follow these steps:
 
 Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/Ramadan.git
@@ -10,19 +10,22 @@ Navigate to the project directory: cd schedule-ramadan
 Install dependencies: npm install
 Configure the application settings as needed.
 Run the application: npm start
-Usage
+
+## Usage
 To use Schedule RAMADAN effectively, follow these guidelines:
 
 Navigate through different sections using the sidebar menu.
 Follow the suggested timings for each activity but feel free to customize according to personal preferences.
 Interact with the evaluation feature to track your progress throughout Ramadan.
-Configuration
+
+## Configuration
 Schedule RAMADAN offers the following configuration options:
 
 Customize prayer timings and alerts.
 Set personal goals for spiritual activities.
 Adjust meal planning preferences based on dietary requirements.
-Features
+
+## Features
 Quran/Adkar/Hadith section for spiritual engagement.
 Salat Management to keep track of prayer times.
 Physical Activity planner for maintaining health during Ramadan.
@@ -40,13 +43,13 @@ Submit a pull request.
 Code of Conduct
 We expect all contributors and users of Schedule RAMADAN to adhere to our Code of Conduct to foster an inclusive and respectful community environment.
 
-License
+## License
 Schedule RAMADAN is released under the MIT License.
 
-Documentation
+## Documentation
 For additional information and detailed usage instructions, refer to the documentation.
 
-Contact Information
+## Contact Information
 For questions, feedback, or support, please reach out to us:
 
 Email: contact@example.com
@@ -60,7 +63,8 @@ IslamicFinder for prayer times API integration.
 Version History
 v1.0.0 (Mars 2024): Initial release.
 v1.1.0 (June 2024): Added evaluation feature and performance improvements.
-Troubleshooting
+
+## Troubleshooting
 If you encounter any issues while using Schedule RAMADAN, refer to the troubleshooting guide or contact support.
 
 FAQ (Frequently Asked Questions)
@@ -70,14 +74,14 @@ A: Yes, you can adjust the notification preferences in the settings menu.
 Q: How can I contribute to the recipe collection?
 A: To contribute recipes, submit a pull request with the recipe details added to the recipes.json file.
 
-Badges
+## Badges
 Screenshots
 
 
-Demo
+## Demo
 Check out the live demo here.
 
-Deployment
+## Deployment
 To deploy the application, follow these steps:
 
 Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/Ramadan.git
@@ -87,15 +91,17 @@ Start the server: npm start
 Continuous Integration
 The project uses GitHub Actions for continuous integration. View the workflow here.
 
-Performance Metrics
+## Performance Metrics
 Average page load time: 1.5 seconds
 API response time: <100ms
 Memory usage: 50MB
-Security
+
+## Security
 User passwords are hashed using bcrypt.
 Input validation is performed on all user inputs to prevent SQL injection and XSS attacks.
 Two-factor authentication is implemented for enhanced security.
-Roadmap
+
+## Roadmap
 Future Features:
 Implement user authentication via OAuth.
 Introduce multi-language support.
@@ -106,13 +112,14 @@ Initial release
 Version 1.1.0 (2024-06-15)
 Added user registration feature.
 Fixed minor UI bugs.
-Community
+
+## Community
 Join our community on Discord and share your feedback!
 
-Support
+## Support
 If you encounter any issues, please refer to our FAQs or open a new issue.
 
-Testimonials
+## Testimonials
 "Schedule RAMADAN has been a lifesaver during Ramadan. The easy-to-use interface and daily schedule reminders have greatly improved my Ramadan experience." - Sarah
 
 
