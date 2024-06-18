@@ -88,7 +88,6 @@ document.getElementById('mode-toggle-btn').addEventListener('click', function() 
     document.body.classList.toggle('dark-mode');
 });
 
-// Add your custom JavaScript code here
 
 function toggleMenu() {
     const sideMenu = document.getElementById('sideMenu');
