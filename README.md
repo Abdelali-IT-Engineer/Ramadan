@@ -5,11 +5,11 @@ Schedule RAMADAN is a comprehensive tool designed to help individuals organize a
 ## Installation
 To install Schedule RAMADAN, follow these steps:
 
-Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/Ramadan.git
-Navigate to the project directory: cd schedule-ramadan
-Install dependencies: npm install
-Configure the application settings as needed.
-Run the application: npm start
+- Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/Ramadan.git
+- Navigate to the project directory: cd schedule-ramadan
+- Install dependencies: npm install
+- Configure the application settings as needed.
+- Run the application: npm start
 
 ## Usage
 To use Schedule RAMADAN effectively, follow these guidelines:
@@ -26,13 +26,14 @@ Set personal goals for spiritual activities.
 Adjust meal planning preferences based on dietary requirements.
 
 ## Features
-Quran/Adkar/Hadith section for spiritual engagement.
-Salat Management to keep track of prayer times.
-Physical Activity planner for maintaining health during Ramadan.
-Ramadan Recipes section for meal planning and cooking ideas.
-Family Involvement & Knowledge Acquisition activities.
-Daily Routine suggestions for consistent spiritual growth.
-Contributing Guidelines
+- Quran/Adkar/Hadith section for spiritual engagement.
+- Salat Management to keep track of prayer times.
+- Physical Activity planner for maintaining health during Ramadan.
+- Ramadan Recipes section for meal planning and cooking ideas.
+- Family Involvement & Knowledge Acquisition activities.
+- Daily Routine suggestions for consistent spiritual growth.
+  
+## Contributing Guidelines
 We welcome contributions from the community to enhance Schedule RAMADAN. To contribute:
 
 Fork the repository.
@@ -40,7 +41,8 @@ Create a new branch: git checkout -b feature/new-feature
 Make your changes and commit them: git commit -m 'Add new feature'
 Push to the branch: git push origin feature/new-feature
 Submit a pull request.
-Code of Conduct
+
+## Code of Conduct
 We expect all contributors and users of Schedule RAMADAN to adhere to our Code of Conduct to foster an inclusive and respectful community environment.
 
 ## License
@@ -54,7 +56,8 @@ For questions, feedback, or support, please reach out to us:
 
 Email: contact@example.com
 Twitter: @example
-Acknowledgments
+
+## Acknowledgments
 We would like to express our gratitude to the following individuals and organizations for their contributions to Schedule RAMADAN:
 
 Bootstrap for the responsive UI components.
@@ -84,17 +87,17 @@ Check out the live demo here.
 ## Deployment
 To deploy the application, follow these steps:
 
-Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/Ramadan.git
-Install dependencies: npm install
-Configure environment variables: Create a .env file and set the necessary variables.
-Start the server: npm start
-Continuous Integration
-The project uses GitHub Actions for continuous integration. View the workflow here.
+- Clone the repository: git clone https://github.com/Abdelali-IT-Engineer/Ramadan.git
+- Install dependencies: npm install
+- Configure environment variables: Create a .env file and set the necessary variables.
+- Start the server: npm start
+- Continuous Integration
+- The project uses GitHub Actions for continuous integration. View the workflow here.
 
 ## Performance Metrics
-Average page load time: 1.5 seconds
-API response time: <100ms
-Memory usage: 50MB
+- Average page load time: 1.5 seconds
+- API response time: <100ms
+- Memory usage: 50MB
 
 ## Security
 User passwords are hashed using bcrypt.
