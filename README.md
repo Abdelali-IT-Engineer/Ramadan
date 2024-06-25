@@ -21,9 +21,9 @@ Interact with the evaluation feature to track your progress throughout Ramadan.
 ## Configuration
 Schedule RAMADAN offers the following configuration options:
 
-Customize prayer timings and alerts.
-Set personal goals for spiritual activities.
-Adjust meal planning preferences based on dietary requirements.
+- Customize prayer timings and alerts.
+- Set personal goals for spiritual activities.
+- Adjust meal planning preferences based on dietary requirements.
 
 ## Features
 - Quran/Adkar/Hadith section for spiritual engagement.
@@ -36,11 +36,11 @@ Adjust meal planning preferences based on dietary requirements.
 ## Contributing Guidelines
 We welcome contributions from the community to enhance Schedule RAMADAN. To contribute:
 
-Fork the repository.
-Create a new branch: git checkout -b feature/new-feature
-Make your changes and commit them: git commit -m 'Add new feature'
-Push to the branch: git push origin feature/new-feature
-Submit a pull request.
+- Fork the repository.
+- Create a new branch: git checkout -b feature/new-feature
+- Make your changes and commit them: git commit -m 'Add new feature'
+- Push to the branch: git push origin feature/new-feature
+- Submit a pull request.
 
 ## Code of Conduct
 We expect all contributors and users of Schedule RAMADAN to adhere to our Code of Conduct to foster an inclusive and respectful community environment.
@@ -54,35 +54,28 @@ For additional information and detailed usage instructions, refer to the documen
 ## Contact Information
 For questions, feedback, or support, please reach out to us:
 
-Email: contact@example.com
-Twitter: @example
+Email: abdelalisaaid120123@gmail.com
+
 
 ## Acknowledgments
 We would like to express our gratitude to the following individuals and organizations for their contributions to Schedule RAMADAN:
 
-Bootstrap for the responsive UI components.
-Font Awesome for the icon library.
-IslamicFinder for prayer times API integration.
-Version History
-v1.0.0 (Mars 2024): Initial release.
-v1.1.0 (June 2024): Added evaluation feature and performance improvements.
+- Bootstrap for the responsive UI components.
+- Font Awesome for the icon library.
+- IslamicFinder for prayer times API integration.
+- Version History
+- v1.0.0 (Mars 2024): Initial release.
+- v1.1.0 (June 2024): Added evaluation feature and performance improvements.
 
 ## Troubleshooting
 If you encounter any issues while using Schedule RAMADAN, refer to the troubleshooting guide or contact support.
 
-FAQ (Frequently Asked Questions)
-Q: Can I customize the notification settings for prayer times?
-A: Yes, you can adjust the notification preferences in the settings menu.
+- FAQ (Frequently Asked Questions)
+- Q: Can I customize the notification settings for prayer times?
+- A: Yes, you can adjust the notification preferences in the settings menu.
 
-Q: How can I contribute to the recipe collection?
-A: To contribute recipes, submit a pull request with the recipe details added to the recipes.json file.
-
-## Badges
-Screenshots
-
-
-## Demo
-Check out the live demo here.
+- Q: How can I contribute to the recipe collection?
+- A: To contribute recipes, submit a pull request with the recipe details added to the recipes.json file.
 
 ## Deployment
 To deploy the application, follow these steps:
@@ -100,17 +93,17 @@ To deploy the application, follow these steps:
 - Memory usage: 50MB
 
 ## Security
-User passwords are hashed using bcrypt.
-Input validation is performed on all user inputs to prevent SQL injection and XSS attacks.
-Two-factor authentication is implemented for enhanced security.
+- User passwords are hashed using bcrypt.
+- Input validation is performed on all user inputs to prevent SQL injection and XSS attacks.
+- Two-factor authentication is implemented for enhanced security.
 
 ## Roadmap
 Future Features:
-Implement user authentication via OAuth.
-Introduce multi-language support.
-Enhance UI/UX with a new design theme.
-Changelog
-Version 1.0.0 (2024-05-01)
+- Implement user authentication via OAuth.
+- Introduce multi-language support.
+- Enhance UI/UX with a new design theme.
+- Changelog
+Version 1.0.0 (2024-03-01)
 Initial release
 Version 1.1.0 (2024-06-15)
 Added user registration feature.
