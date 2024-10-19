@@ -51,10 +51,7 @@ We expect all contributors and users of Schedule RAMADAN to adhere to our Code o
 For additional information and detailed usage instructions, refer to the documentation.
 
 ## Contact Information
-For questions, feedback, or support, please reach out to us:
-
-Email: abdelalisaaid120123@gmail.com
-
+For questions, feedback, or support, please reach out to us
 
 ## Acknowledgments
 We would like to express our gratitude to the following individuals and organizations for their contributions to Schedule RAMADAN:
@@ -112,10 +109,10 @@ Fixed minor UI bugs.
 Join our community on Discord and share your feedback!
 
 ## Support
-If you encounter any issues, please refer to our FAQs or open a new issue.
+If you encounter any issues, please refer to question me.
 
 ## Testimonials
-"Schedule RAMADAN has been a lifesaver during Ramadan. The easy-to-use interface and daily schedule reminders have greatly improved my Ramadan experience." - Sarah
+"Schedule RAMADAN has been a lifesaver during Ramadan. The easy-to-use interface and daily schedule reminders have greatly improved my Ramadan experience." 
 
 
 
