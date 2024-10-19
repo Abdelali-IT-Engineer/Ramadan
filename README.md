@@ -46,7 +46,6 @@ We welcome contributions from the community to enhance Schedule RAMADAN. To cont
 We expect all contributors and users of Schedule RAMADAN to adhere to our Code of Conduct to foster an inclusive and respectful community environment.
 
 ## License
-Schedule RAMADAN is released under the MIT License.
 
 ## Documentation
 For additional information and detailed usage instructions, refer to the documentation.
